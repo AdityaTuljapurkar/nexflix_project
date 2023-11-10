@@ -77,6 +77,7 @@ hr{
 }
 .questions{
 font-family: 'Montserrat';
+    background-color:rgb(61, 61, 61);
 }
 .questions:hover{
     cursor: pointer;
