@@ -1,0 +1,147 @@
+.nav1{
+    display:block ;
+    position: relative;
+
+}
+.netflixlogo{
+    /* font-family: 'Netflix Sans'; */
+    float: left;
+    margin: 0em 1em;
+}
+.login{
+    float: right;
+    margin: 2em 4em;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+position: relative;
+top: 10em;
+width:27em ;
+text-align: center;
+/* justify-content: center; */
+align-items: center;
+}
+.mid h3{
+    margin-top: 2px;
+}
+.midx{
+    font-size: 0.8em;
+    width: 35em;
+
+}
+.email{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.emailin{
+    font-size: 28px;
+    width: 14em;
+}
+.submit{
+    
+    font-size: 28px;
+}
+.box1{
+    height: 44em;
+}
+.box{
+    
+    display: flex;
+    justify-content: center;
+    margin: 4em 0em;
+}
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    width: 34em;
+    margin: 4em;
+}
+.cont h1{
+    /* text-align: center; */
+    justify-content: center ;
+    font-size: 3em;
+}
+.cont h3{
+    /* text-align: left; */
+    justify-content: center ;
+    font-size: 1.5em;
+}
+.question{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2em;
+}
+.questions{
+    text-align: left;
+font-size: 1.5em;
+width: 66%;
+margin-top: 0.4em;
+border: none;
+padding: 1em;
+}
+.question h1{
+    font-size: 3em;
+    margin: 1em 0em 0.5em 0em;
+}
+.qusmed{
+    margin: 1em 0em 0.5em 0em;
+font-size: 1.5em;
+}
+.paracont{
+    background-color: rgb(78, 77, 77);
+    border: 2px solid rgb(78, 77, 77);
+}
+.padding1{
+    padding: 0.3em;
+}
+.btn{
+    color: white;
+}
+.blink{
+
+}
+.box5{
+    /* width: 66%; */
+    height: auto;
+}
+.b{
+    display: flex;
+    margin: 2em;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    /* border: 2px solid red; */
+
+
+
+
+    /* margin: 2em 0em 0em 3em; */
+}
+.b li{
+    padding: 1em;
+    list-style: none;
+    
+    
+}
+#b1 li a{
+    padding-right:  5em ;
+    color: gray;
+}
+#b2 li a{
+    color: gray;
+    padding-right:  3.5em ;
+}
+#b3 li a{
+    color: gray;
+    padding-right:  2em ;
+}
+#b4 li a{
+    color: gray;
+    padding-right:  2em ;
+}

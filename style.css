@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Handjet:wght@300&family=Kanit:wght@900&family=Lato:ital@1&family=Montserrat&family=Noto+Sans:ital@1&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500&family=Permanent+Marker&family=Playpen+Sans:wght@800&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,500&family=Sometype+Mono:ital,wght@1,500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Handjet:wght@300&family=Kanit:wght@900&family=Lato:ital@1&family=Noto+Sans:ital@1&family=Open+Sans:ital,wght@1,700&family=Oswald:wght@500&family=Permanent+Marker&family=Playpen+Sans:wght@800&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@1,500&family=Sometype+Mono:ital,wght@1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,800;1,900&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    /* /* background-color: black; */
+    color: aliceblue; 
+    font-family: 'Ubuntu', sans-serif;
+}
+/* .box1{
+ background-image: url("/jack-reacher-star-wars-interstellar-movie-john-wick-wallpaper-68762d68a0501c78502ca10ee8a2148a.jpg");
+} */
+.netflixlogo{
+    font-family: 'Kanit', sans-serif;
+    color: red;
+    font-size: 4em;
+}
+#signin{
+    background-color: red;
+    font-size: 1.2em;
+    margin: 4px;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 9px;
+}
+#signin:hover{
+    background-color: rgba(255, 0, 0, 0.863);
+    cursor: pointer;
+}
+#lang{
+    font-size: 1.2em;
+    margin: 4px;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 9px;
+}
+.mid{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+    
+}
+.emailin{
+    background-color: rgba(54, 47, 47, 0.507);
+    border-radius: 9px;
+}
+.submit{
+    background-color: red;
+    border-radius: 9px;
+}
+.submit:hover{
+ cursor: pointer;
+ /* transform: scale(1.1); */
+ background-color: rgba(233, 0, 0, 0.603);
+}
+.box1 {
+    background-image: url(/jack-reacher-star-wars-interstellar-movie-john-wick-wallpaper-68762d68a0501c78502ca10ee8a2148a.jpg);
+    background-size: cover;
+    background-position: center;
+    isolation: isolate;
+}
+.box1::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.849);
+    opacity: 0.7;
+    height: 44em;
+}
+hr{
+    height: 5px;
+    background-color: rgb(78, 77, 77);
+    border: 2px solid rgb(78, 77, 77);
+}
+.questions{
+font-family: 'Montserrat';
+}
+.questions:hover{
+    cursor: pointer;
+}
