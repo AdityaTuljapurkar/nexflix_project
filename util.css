@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .nav1{
     display:block ;
     position: relative;
@@ -47,29 +50,29 @@ align-items: center;
     height: 44em;
 }
 .box{
-    
+    background-color: black;
     display: flex;
     justify-content: center;
     margin: 4em 0em;
 }
 .cont
-{
+{background-color: black;
     display: flex;
     flex-direction: column;
     width: 34em;
     margin: 4em;
 }
-.cont h1{
+.cont h1{background-color: black;
     /* text-align: center; */
     justify-content: center ;
     font-size: 3em;
 }
-.cont h3{
+.cont h3{background-color: black;
     /* text-align: left; */
     justify-content: center ;
     font-size: 1.5em;
 }
-.question{
+.question{background-color: black;
     display: flex;
     align-items: center;
     text-align: center;
